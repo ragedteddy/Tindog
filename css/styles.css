@@ -59,7 +59,7 @@ h2{
     width: 70%;
     transform: rotate(25deg);
 }
-.fas{
+.fas-icon{
     font-size:80px;
     padding-bottom: 10px;
     color: #ef8172;
@@ -113,15 +113,26 @@ p{
     padding: 3% 2%;
 }
 
-.footer-css{
+.cta-css{
     text-align:center;
-    background-color:#ef8172;
+    background-color:#ff4c68;
     color: #fff;
 }
 
 #copyright{
-    color:#fff;
     font-family: 'Montserrat-thin', sans-serif;
+    text-align: center;
+    color: grey;
+    margin: 25px;
+}
+
+#footer{
+    text-align:center;
+    margin: 50px ;
+}
+
+.footer-icons{
+    margin: 10px;
 }
 
 @media (max-width:1028px) {
