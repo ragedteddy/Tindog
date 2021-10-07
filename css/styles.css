@@ -123,3 +123,16 @@ p{
     color:#fff;
     font-family: 'Montserrat-thin', sans-serif;
 }
+
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .dog-image{
+        transform:rotate(0);
+    }
+    #features{
+        position:static;
+        padding-top:100px;
+    }
+}
